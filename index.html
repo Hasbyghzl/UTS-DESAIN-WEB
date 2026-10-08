@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Menu</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="login-layout">
+        <!-- illust -->
+        <section class="login-banner">
+            <img src="src/img1.jpg" alt="Artistic background illustration" class="login-banner-image">
+            <div class="login-banner-overlay"></div>
+        </section>
+
+        <!-- login form -->
+        <section class="login-content">
+            <div class="login-wrapper">
+                
+                <!-- logo -->
+                <div class="brand-logo">
+                    <img src="src/img3.jpg" alt="Nexus Logo" class="brand-logo-image">
+                    <span class="brand-logo-text">Artlib</span>
+                </div>
+
+                <div class="login-header">
+                    <h1 class="login-title">Selamat datang kembali!</h1>
+                    <p class="login-subtitle">Masukan data anda untuk login.</p>
+                </div>
+
+                <form class="login-form" action="#" method="POST">
+                    
+                    <!-- sso -->
+                    <button type="button" class="btn btn-outline" aria-label="Sign in with Google">
+                        <img src="src/img2.jpg" alt="Google Icon" class="btn-icon">
+                        Sign in with Google
+                    </button>
+
+                    <!-- divider -->
+                    <div class="login-divider">
+                        <span class="login-divider-text">or</span>
+                    </div>
+
+                    <!-- field inpit -->
+                    <div class="form-group">
+                        <label for="username" class="form-label">Email/Username</label>
+                        <input type="text" id="username" name="username" class="form-input" placeholder="Masukan Email atau Username" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" id="password" name="password" class="form-input" placeholder="Masukan Password" required>
+                    </div>
+
+                    <!-- row option -->
+                    <div class="form-options">
+                        <label class="form-checkbox">
+                            <input type="checkbox" name="remember">
+                            <span class="form-checkbox-text">Ingat Saya</span>
+                        </label>
+                        <a href="#" class="form-link">Lupa Password??</a>
+                    </div>
+
+                    <!-- button submit -->
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
