@@ -106,7 +106,6 @@ body {
     gap: 1.25rem;
 }
 
-/* Buttons */
 .btn {
     display: flex;
     align-items: center;
@@ -130,12 +129,12 @@ body {
 }
 
 .btn-primary {
-    background-color: #0056b3;
+    background-color: #0474C4;
     color: #ffffff;
 }
 
 .btn-primary:hover {
-    background-color: #004494;
+    background-color: #06457F;
 }
 
 .btn-outline {
@@ -170,7 +169,6 @@ body {
     font-weight: 500;
 }
 
-/* Inputs */
 .form-group {
     display: flex;
     flex-direction: column;
@@ -196,8 +194,8 @@ body {
 
 .form-input:focus {
     outline: none;
-    border-color: #0056b3;
-    box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.3);
+    border-color: #0474C4   ;
+    box-shadow: 0 0 0 1px rgba(0, 86, 179, 0.3);
 }
 
 .form-input::placeholder {
